@@ -1,26 +1,62 @@
 [
   {
     "name": "Travel Light Credit Card",
+    "provider": "Banco Aurora",
     "type": "credit_card",
     "maintenance_fee": 0,
     "min_income": 500000,
-    "benefits": ["travel", "no_fee"],
-    "interest_rate": 0
+    "benefits": ["travel", "no_fee", "international_assistance"],
+    "interest_rate": 0,
+    "description": "A no-fee credit card designed for users who travel and want simple international benefits."
   },
   {
     "name": "Premium Rewards Card",
+    "provider": "FinBank",
     "type": "credit_card",
     "maintenance_fee": 15000,
     "min_income": 1000000,
-    "benefits": ["travel", "cashback"],
-    "interest_rate": 0
+    "benefits": ["travel", "cashback", "airport_lounge"],
+    "interest_rate": 0,
+    "description": "A premium card with stronger rewards, cashback and airport benefits for high-income users."
+  },
+  {
+    "name": "Everyday Cashback Card",
+    "provider": "Compara Partner Bank",
+    "type": "credit_card",
+    "maintenance_fee": 5000,
+    "min_income": 350000,
+    "benefits": ["cashback", "groceries"],
+    "interest_rate": 0,
+    "description": "A practical card focused on cashback for daily spending."
   },
   {
     "name": "Personal Loan Basic",
+    "provider": "Crédito Simple",
     "type": "loan",
     "maintenance_fee": 0,
     "min_income": 300000,
     "benefits": ["low_interest"],
-    "interest_rate": 45
+    "interest_rate": 45,
+    "description": "A personal loan option for users looking for predictable payments and simple eligibility."
+  },
+  {
+    "name": "Fast Approval Loan",
+    "provider": "Fintech Now",
+    "type": "loan",
+    "maintenance_fee": 0,
+    "min_income": 450000,
+    "benefits": ["fast_approval"],
+    "interest_rate": 62,
+    "description": "A loan focused on speed and availability, with a higher interest rate trade-off."
+  },
+  {
+    "name": "Smart Savings Account",
+    "provider": "Banco Digital",
+    "type": "account",
+    "maintenance_fee": 0,
+    "min_income": 0,
+    "benefits": ["no_fee", "savings", "digital_account"],
+    "interest_rate": 0,
+    "description": "A free digital account for users who want to start organizing their finances."
   }
 ]
