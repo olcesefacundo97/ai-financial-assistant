@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Travel Light Credit Card",
+    "type": "credit_card",
+    "maintenance_fee": 0,
+    "min_income": 500000,
+    "benefits": ["travel", "no_fee"],
+    "interest_rate": 0
+  },
+  {
+    "name": "Premium Rewards Card",
+    "type": "credit_card",
+    "maintenance_fee": 15000,
+    "min_income": 1000000,
+    "benefits": ["travel", "cashback"],
+    "interest_rate": 0
+  },
+  {
+    "name": "Personal Loan Basic",
+    "type": "loan",
+    "maintenance_fee": 0,
+    "min_income": 300000,
+    "benefits": ["low_interest"],
+    "interest_rate": 45
+  }
+]
